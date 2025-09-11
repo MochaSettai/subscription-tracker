@@ -6,7 +6,7 @@ npm install dotenv
 
 npm install mongodb mongoose
 
-npm install jsonwebtoken
+npm install jsonwebtoken bcryptjs
 
 Database:
 username - mochasettai
