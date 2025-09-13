@@ -8,6 +8,8 @@ npm install mongodb mongoose
 
 npm install jsonwebtoken bcryptjs
 
+npm i @arcjet/node @arcjet/inspect
+
 Database:
 username - mochasettai
 password - mochasettai
