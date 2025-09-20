@@ -15,7 +15,3 @@ npm install dayjs
 npx @upstash/qstash-cli dev
 
 npm install nodemailer
-
-Database:
-username - mochasettai
-password - mochasettai
