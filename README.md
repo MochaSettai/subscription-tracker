@@ -12,9 +12,6 @@
 - [Getting Started](#getting-started)  
   - [Prerequisites](#prerequisites)  
   - [Installation](#installation)  
-  - [Environment Variables](#environment-variables)  
-  - [Running Locally](#running-locally)  
-- [Workflow / Reminders](#workflow--reminders)
 
 ---
 
@@ -60,3 +57,6 @@ Subscription Tracker is a backend project designed to manage user subscriptions,
 git clone https://github.com/MochaSettai/subscription-tracker.git
 cd subscription-tracker
 npm install
+```
+
+> Refer to the `guide.txt` for more installation setup instructions.
