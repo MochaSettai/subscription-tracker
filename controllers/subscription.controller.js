@@ -84,3 +84,22 @@ export const deleteSubscription = async (req, res, next) => {
         next(error);
     }
 }
+
+export const deleteSubscriptions = async (req, res, next) => {
+    try {
+        const subscriptions = await Subscription.deleteMany({ name: req.params.name });
+
+        if (subscriptions.deletedCount === 0) {
+            const error = new Error(`No subscriptions found with name ${req.params.name}`);
+            error.status = 404;
+            throw error;
+        }
+
+        res.status(200).json({ 
+            success: true, 
+            message: `${subscriptions.deletedCount} subscription(s) deleted` 
+        });
+    } catch (error) {
+        next(error);
+    }
+}
